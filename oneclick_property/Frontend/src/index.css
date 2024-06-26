@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+  background-color:  rgb(243 244 246);
+}
+@font-face {
+  font-family: 'robotoreg';
+  src: url('Fonts/Roboto2/Roboto-Regular.ttf');
+}
+.sellbtn{
+  /* border: 2px solid ;
+  border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
+  border-image: url('https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg') 30 round; */
+}
+@font-face {
+  font-family: 'arquitceta';
+  src: url('Fonts/arquitecta-cufonfonts/Arquitecta.otf');
+}
+@font-face {
+  font-family: 'arquitcetabold';
+  src: url('Fonts/arquitecta-cufonfonts/ArquitectaBold.otf');
+}
+*{
+  color:#23970C ;
+  /* font-family:arquitceta; */
+  font-weight: 500;
+  /* fill: #A5A5A5; */
+  
+
+}
+label{
+  color: #374151;
+}
+.line-container {
+  display: flex;
+  width: 20%;
+  height: 20px;
+  border: 2px solid #28292b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.line-part {
+  flex: 1;
+  background-color: transparent;
+  border-right: 2px solid #3d4046 ;
+  
+}
+
+.line-part:last-child {
+  border-right: none;
+}
+svg{
+  color: #A5A5A5 !important;
+}
+
+/* html{
+  
+  font-family:roboto ;
+} */
+h1,h2,h3,h4{
+  font-family:robotoreg;
+  font-weight: 700;
+}
+/* div span:nth-child(1){
+font-family: robotoreg;
+} */
+ input::placeholder{
+  font-family: robotoreg;
+  font-weight: 600;
+ }
+
+ .category{
+  font-family: roboto;
+  border-radius: 150px;
+  background: linear-gradient(315deg, #d0d0d0, #f7f7f7);
+  box-shadow:  -3px -3px 6px #dedede,
+               3px 3px 6px #f0f0f0;
+             width: 2rem;
+             height: 2rem;
+ }
